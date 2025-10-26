@@ -24,7 +24,7 @@ int main()
                 cin>>num1;
                 cout<<"enter another number: ";
                 cin>>num2;
-                num1+=num2;
+                num1=num1+num2;
                 while(1)
                 {
                     cout<<"enter another number or 0 for the answer: ";
@@ -34,6 +34,71 @@ int main()
                         cout<<num1<<endl;
                         break;
                     }
+                    else
+                        num1=num1+num2;
+                }
+                break;
+            }
+            case 2:
+            {
+                cout<<"enter a number: ";
+                cin>>num1;
+                cout<<"enter another number: ";
+                cin>>num2;
+                num1=num1-num2;
+                while(1)
+                {
+                    cout<<"enter another number or 0 for the answer: ";
+                    cin>>num2;
+                    if(num2==0)
+                    {
+                        cout<<num1<<endl;
+                        break;
+                    }
+                    else
+                        num1=num1-num2;
+                }
+                break;
+            }
+            case 3:
+            {
+                cout<<"enter a number: ";
+                cin>>num1;
+                cout<<"enter another number: ";
+                cin>>num2;
+                num1=num1*num2;
+                while(1)
+                {
+                    cout<<"enter another number or 0 for the answer: ";
+                    cin>>num2;
+                    if(num2==0)
+                    {
+                        cout<<num1<<endl;
+                        break;
+                    }
+                    else
+                        num1=num1*num2;
+                }
+                break;
+            }
+            case 4:
+            {
+                cout<<"enter a number: ";
+                cin>>num1;
+                cout<<"enter another number: ";
+                cin>>num2;
+                num1=num1/num2;
+                while(1)
+                {
+                    cout<<"enter another number or 0 for the answer: ";
+                    cin>>num2;
+                    if(num2==0)
+                    {
+                        cout<<num1<<endl;
+                        break;
+                    }
+                    else
+                        num1=num1/num2;
                 }
                 break;
             }
