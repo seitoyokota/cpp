@@ -194,12 +194,14 @@ int main()
                 {
                     cout<<"enter the degree: ";
                     cin>>num1;
+                    num1=num1*(M_PI/180);
                     num1=sin(num1);
                 }
                 else if(num1==2)
                 {
                     cout<<"enter the radian: ";
                     cin>>num1;
+                    num1=sin(num1);
                 }
                 cout<<"answer: "<<num1<<endl;
                 break;
@@ -212,12 +214,14 @@ int main()
                 {
                     cout<<"enter the degree: ";
                     cin>>num1;
+                    num1=num1*(M_PI/180);
                     num1=cos(num1);
                 }
                 else if(num1==2)
                 {
                     cout<<"enter the radian: ";
                     cin>>num1;
+                    num1=cos(num1);
                 }
                 cout<<"answer: "<<num1<<endl;
                 break;
@@ -230,12 +234,14 @@ int main()
                 {
                     cout<<"enter the degree: ";
                     cin>>num1;
+                    num1=num1*(M_PI/180);
                     num1=tan(num1);
                 }
                 else if(num1==2)
                 {
                     cout<<"enter the radian: ";
                     cin>>num1;
+                    num1=tan(num1);
                 }
                 cout<<"answer: "<<num1<<endl;
                 break;
